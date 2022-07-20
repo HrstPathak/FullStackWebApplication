@@ -1,0 +1,56 @@
+.footer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #212529;
+  justify-content: center;
+  /* position: absolute; */
+  bottom: 0px;
+  border-top: 2px solid lightslategray;
+}
+.footer-header {
+  color: lightcyan;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.footer-inner-div {
+  display: flex;
+  width: 100%;
+  color: lightslategrey;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-icon {
+  /* margin: 0 10rem; */
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+.instagram {
+  color: rgb(243, 46, 79);
+}
+.whatsapp {
+  color:green;
+}
+.facebook {
+  color: blue;
+}
+.youtube {
+  color: red;
+}
+.iconE {
+  border-radius: 50rem;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.iconE:hover {
+  border: 2px solid white;
+  transform: scale(1.3);
+  text-shadow: 2px 2px 2px white;
+}
