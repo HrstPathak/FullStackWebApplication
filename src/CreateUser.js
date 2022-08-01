@@ -11,13 +11,13 @@ function CreateUser() {
   const phone = user?.phoneNumber;
   console.log(user.uid);
   useEffect(() => {
-    if (
-      db
-        .collection("users")
-        .doc(user?.uid)
-        .collection("userData")
-        .doc(user.uid) == null
-    ) {
+//     if (
+//       db
+//         .collection("users")
+//         .doc(user?.uid)
+//         .collection("userData")
+//         .doc(user.uid) == null
+//     ) {
       db.collection("users")
         .doc(user?.uid)
         .collection("userData")
@@ -33,7 +33,7 @@ function CreateUser() {
           State: "NOT PROVIDED",
           Zip: "NOT PROVIDED",
         });
-    }
+//     }
     navigate("/");
   }, []);
 
