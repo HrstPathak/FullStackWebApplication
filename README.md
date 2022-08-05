@@ -1,4 +1,12 @@
 #SUCCULENT HUB : E-Commerce WebApp 
+
+![Screenshot (35)](https://user-images.githubusercontent.com/89193946/183067045-290a393e-a70a-461b-8096-84c95543621d.png)
+
+
+![Screenshot (36)](https://user-images.githubusercontent.com/89193946/183067061-7b2389d4-d78e-42c8-9fb8-25ccc1f8c982.png)
+
+
+
 Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
